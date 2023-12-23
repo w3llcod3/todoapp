@@ -4,7 +4,7 @@ This is a simple Todo application built with Vue.js and Vite.
 
 ## Online Demo
 
-You can check out the live demo of the app [here](https://your-demo-link.com).
+You can check out the live demo of the app [here](https://todoapp-70b9a.web.app).
 
 ## Features
 
