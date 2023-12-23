@@ -33,7 +33,7 @@ const loadTodos = async () => {
   await store.load()
 }
 
-onMounted( () => {
+onMounted(() => {
   loadTodos()
 })
 </script>
@@ -57,7 +57,12 @@ onMounted( () => {
   <div v-else-if="todos.length > 0">
     <ul>
       <li v-for="todo in todos" :key="todo.id">
-        <TodoItem :key="todo.id" :todo="todo" @deleteTodo="deleteTodo" @markAsDone="markTodoAsDone" />
+        <TodoItem
+          :key="todo.id"
+          :todo="todo"
+          @deleteTodo="deleteTodo"
+          @markAsDone="markTodoAsDone"
+        />
       </li>
     </ul>
   </div>

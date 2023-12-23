@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import Todos from './../components/TodosList.vue'
-
 </script>
 
 <template>
